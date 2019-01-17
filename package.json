@@ -2,6 +2,10 @@
   "name": "mapbox-test",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
   "dependencies": {
     "@types/node": "10.12.18",
     "@types/react": "16.7.20",
@@ -11,12 +15,8 @@
     "react-scripts": "2.1.3",
     "typescript": "3.2.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "tslint-config-airbnb": "5.11.1"
   },
   "browserslist": [
     ">0.2%",
