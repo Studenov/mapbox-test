@@ -1,8 +1,12 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 
-import { Homepage } from './components/index';
+import { store } from './store/store';
+import { Index } from './components';
 
 export const Application = () => (
-  <Homepage />
+  <Provider store={store}>
+    <Index />
+  </Provider>
 );
 

@@ -1,10 +1,5 @@
 import React from 'react';
 
-import logo from 'static/images/logo.svg';
+import { HomepageConnect } from './map';
 
-export const Homepage = () => (
-  <div>
-    <p>Hello world!</p>
-    <img src={logo} />
-  </div>
-);
+export const Index = () => (<HomepageConnect />);
